@@ -1,0 +1,11 @@
+framework module OpenPaymentSDK {
+  umbrella header "OpenPaymentSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module OpenPaymentSDK.Swift {
+    header "OpenPaymentSDK-Swift.h"
+    requires objc
+}

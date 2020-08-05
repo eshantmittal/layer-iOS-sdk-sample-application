@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		OK+oOGqqGddwOwPPT4txiG1n2HA=
+		pzgI9e47Q86XLoN3mnAYlaBTbHA=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		6rRXM62qifIT1BPaA0Dcb1/ORcA=
+		Cy6nhnmp9NAQm1oHiDpQ90zVgeI=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		6rRXM62qifIT1BPaA0Dcb1/ORcA=
+		Cy6nhnmp9NAQm1oHiDpQ90zVgeI=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		OK+oOGqqGddwOwPPT4txiG1n2HA=
+		pzgI9e47Q86XLoN3mnAYlaBTbHA=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		OK+oOGqqGddwOwPPT4txiG1n2HA=
+		pzgI9e47Q86XLoN3mnAYlaBTbHA=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		E6w63CKUZ2aWkzrQAVq7t/BkbRk=
+		tS5Hanj4o/uIH+2FURaHSWiacK4=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		a320pqMiCBygg9jIVf52RrbmDTU=
+		Rr3etluAQxXouaWD5VRRC/DeU2s=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		a320pqMiCBygg9jIVf52RrbmDTU=
+		Rr3etluAQxXouaWD5VRRC/DeU2s=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		E6w63CKUZ2aWkzrQAVq7t/BkbRk=
+		tS5Hanj4o/uIH+2FURaHSWiacK4=
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/OpenPaymentSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		E6w63CKUZ2aWkzrQAVq7t/BkbRk=
+		tS5Hanj4o/uIH+2FURaHSWiacK4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,55 +109,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OK+oOGqqGddwOwPPT4txiG1n2HA=
+			pzgI9e47Q86XLoN3mnAYlaBTbHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			nK7Fjw9aER9bIwCEEluXt/TfeIGEa1ZmMQG7hntNgjQ=
+			1Fl67k5YVmuUfGDriGd0NLe8yz4B27JGrXjX0b/0c/A=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6rRXM62qifIT1BPaA0Dcb1/ORcA=
+			Cy6nhnmp9NAQm1oHiDpQ90zVgeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			sHi7kUEgToAAkpFDwLGie+ShnwEOhYpzZHklASjFa/E=
+			uU1a+RPZsTEJFHb+hLxT9bepSULXQ8yMW/KB7gfeC5U=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6rRXM62qifIT1BPaA0Dcb1/ORcA=
+			Cy6nhnmp9NAQm1oHiDpQ90zVgeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			sHi7kUEgToAAkpFDwLGie+ShnwEOhYpzZHklASjFa/E=
+			uU1a+RPZsTEJFHb+hLxT9bepSULXQ8yMW/KB7gfeC5U=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OK+oOGqqGddwOwPPT4txiG1n2HA=
+			pzgI9e47Q86XLoN3mnAYlaBTbHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			nK7Fjw9aER9bIwCEEluXt/TfeIGEa1ZmMQG7hntNgjQ=
+			1Fl67k5YVmuUfGDriGd0NLe8yz4B27JGrXjX0b/0c/A=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OK+oOGqqGddwOwPPT4txiG1n2HA=
+			pzgI9e47Q86XLoN3mnAYlaBTbHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			nK7Fjw9aER9bIwCEEluXt/TfeIGEa1ZmMQG7hntNgjQ=
+			1Fl67k5YVmuUfGDriGd0NLe8yz4B27JGrXjX0b/0c/A=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm.swiftdoc</key>
@@ -175,11 +175,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E6w63CKUZ2aWkzrQAVq7t/BkbRk=
+			tS5Hanj4o/uIH+2FURaHSWiacK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			TXA/HbFwzP/wsKV3Yo7Hksv2Gte2FNErAT8jQybtofs=
+			yO1nXnlNDTJT+7aRyJS1fYHI6RK7aj2bcmBkzvEuQWE=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -197,11 +197,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a320pqMiCBygg9jIVf52RrbmDTU=
+			Rr3etluAQxXouaWD5VRRC/DeU2s=
 			</data>
 			<key>hash2</key>
 			<data>
-			mecsL6FzB06jTARYKMbN1YASzKs/lVE/IgFMEI+7Ys4=
+			5/70b0ODO1s64JTTA5IrOrK+bwfU/01yULDHXtgsABg=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/arm64.swiftdoc</key>
@@ -219,11 +219,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a320pqMiCBygg9jIVf52RrbmDTU=
+			Rr3etluAQxXouaWD5VRRC/DeU2s=
 			</data>
 			<key>hash2</key>
 			<data>
-			mecsL6FzB06jTARYKMbN1YASzKs/lVE/IgFMEI+7Ys4=
+			5/70b0ODO1s64JTTA5IrOrK+bwfU/01yULDHXtgsABg=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -241,11 +241,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E6w63CKUZ2aWkzrQAVq7t/BkbRk=
+			tS5Hanj4o/uIH+2FURaHSWiacK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			TXA/HbFwzP/wsKV3Yo7Hksv2Gte2FNErAT8jQybtofs=
+			yO1nXnlNDTJT+7aRyJS1fYHI6RK7aj2bcmBkzvEuQWE=
 			</data>
 		</dict>
 		<key>Modules/OpenPaymentSDK.swiftmodule/armv7.swiftdoc</key>
@@ -263,11 +263,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E6w63CKUZ2aWkzrQAVq7t/BkbRk=
+			tS5Hanj4o/uIH+2FURaHSWiacK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			TXA/HbFwzP/wsKV3Yo7Hksv2Gte2FNErAT8jQybtofs=
+			yO1nXnlNDTJT+7aRyJS1fYHI6RK7aj2bcmBkzvEuQWE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

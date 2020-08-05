@@ -44,6 +44,9 @@ class ViewController: UIViewController,OpenPaymentDelegate {
     func onTransactionCompleted(transactionDetails: PaymentStatus) {
         DispatchQueue.main.async {
             self.descriptionLabel.text = "\(transactionDetails)"
+            print(transactionDetails.paymentID)
+            print(transactionDetails.paymentTokenID)
+            print(transactionDetails.status)
         }
     }
 }

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D3219AF24A4B840004EF399 /* OpenPaymentSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3219AD24A4B607004EF399 /* OpenPaymentSDK.framework */; };
-		4D3219B024A4B840004EF399 /* OpenPaymentSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3219AD24A4B607004EF399 /* OpenPaymentSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D22F21024DAE2390021E129 /* OpenPaymentSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D22F20F24DAE2390021E129 /* OpenPaymentSDK.framework */; };
 		9D180DE924A47134001C6CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D180DE824A47134001C6CF8 /* AppDelegate.swift */; };
 		9D180DEB24A47134001C6CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D180DEA24A47134001C6CF8 /* SceneDelegate.swift */; };
 		9D180DED24A47134001C6CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D180DEC24A47134001C6CF8 /* ViewController.swift */; };
@@ -24,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4D3219B024A4B840004EF399 /* OpenPaymentSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D3219AD24A4B607004EF399 /* OpenPaymentSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenPaymentSDK.framework; sourceTree = "<group>"; };
+		4D22F20F24DAE2390021E129 /* OpenPaymentSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenPaymentSDK.framework; sourceTree = "<group>"; };
 		9D180DE524A47134001C6CF8 /* iOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D180DE824A47134001C6CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D180DEA24A47134001C6CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,17 +46,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3219AF24A4B840004EF399 /* OpenPaymentSDK.framework in Frameworks */,
+				4D22F21024DAE2390021E129 /* OpenPaymentSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D22F20E24DAE2390021E129 /* OpenPaymentSDK-Debug-iphoneuniversal */ = {
+			isa = PBXGroup;
+			children = (
+				4D22F20F24DAE2390021E129 /* OpenPaymentSDK.framework */,
+			);
+			path = "OpenPaymentSDK-Debug-iphoneuniversal";
+			sourceTree = "<group>";
+		};
 		9D180DDC24A47134001C6CF8 = {
 			isa = PBXGroup;
 			children = (
-				4D3219AD24A4B607004EF399 /* OpenPaymentSDK.framework */,
+				4D22F20E24DAE2390021E129 /* OpenPaymentSDK-Debug-iphoneuniversal */,
 				9D180DE724A47134001C6CF8 /* iOS-SDK-Demo */,
 				9D180DE624A47134001C6CF8 /* Products */,
 			);
@@ -309,6 +315,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/OpenPaymentSDK-Debug-iphoneuniversal",
 				);
 				INFOPLIST_FILE = "iOS-SDK-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -332,6 +339,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/OpenPaymentSDK-Debug-iphoneuniversal",
 				);
 				INFOPLIST_FILE = "iOS-SDK-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

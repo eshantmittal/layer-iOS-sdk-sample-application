@@ -7,47 +7,44 @@
 //
 
 import UIKit
-import OpenPaymentSDK
+import LayerPayment
 
-class ViewController: UIViewController,OpenPaymentDelegate {
-   
-    let paymentToken = "sb_pt_BRnS2ttBJTs3vte"
-    let accessToken = "b0adaaa0-be66-11e9-ac5e-3d22d7faebc8"
+class ViewController: UIViewController,LayerPaymentDelegate {
+
+    let paymentToken = "payment_token"
+    let accessToken = "access_token"
 
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var paymentIdLabel: UILabel!
+    @IBOutlet weak var tokenIdLabel: UILabel!
+    @IBOutlet weak var statusLabel: UILabel!
+    
+    
     @IBAction func paymentButtonClick(_ sender: Any) {
-        
         startPayment()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-       
     }
 
     func startPayment()
     {
-        let openPayment = OpenPayment()
-          .setBaseViewController(self.navigationController!)
-          .setAccessToken(accessToken)
-                           .setPaymentToken(paymentToken)
-        .setEnvironment(environment:OpenPaymentSDK.NetworkEnvironment.SANDBOX)
-                  .build()
-        openPayment?.delegate = self
-        openPayment?.startPayment()
-       
+        let layerPayment = LayerPayment(paymentToken: paymentToken,accessKey: accessToken, environment: NetworkEnvironment.Sandbox)
+        layerPayment.delegate = self
+        layerPayment.setBaseViewController(self)
+        layerPayment.startPayment()
     }
     
-    func onError(message: String) {
-        descriptionLabel.text = message
-    }
-       
-    func onTransactionCompleted(transactionDetails: PaymentStatus) {
+    func onPaymentCompleted(_ transactionDetails: TransactionDetails) {
         DispatchQueue.main.async {
-            self.descriptionLabel.text = "\(transactionDetails)"
-            print(transactionDetails.paymentID)
-            print(transactionDetails.paymentTokenID)
-            print(transactionDetails.status)
+            self.paymentIdLabel.text = "paymentId: \(transactionDetails.paymentId!)" //+ paymentId
+            self.tokenIdLabel.text = "paymentTokenId: \(transactionDetails.paymentTokenId!)"
+            self.statusLabel.text = "status: \(transactionDetails.status!)"
         }
+    }
+    
+    func onPaymentError(_ error: String) {
+        descriptionLabel.text = error
     }
 }
 

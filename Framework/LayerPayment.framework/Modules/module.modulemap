@@ -1,0 +1,11 @@
+framework module LayerPayment {
+  umbrella header "LayerPayment.h"
+
+  export *
+  module * { export * }
+}
+
+module LayerPayment.Swift {
+    header "LayerPayment-Swift.h"
+    requires objc
+}

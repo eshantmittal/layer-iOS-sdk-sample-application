@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D559B7528BDFC920061BA0A /* OpenPayment.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D559B7328BDFC860061BA0A /* OpenPayment.xcframework */; };
+		0D559B7628BDFC920061BA0A /* OpenPayment.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D559B7328BDFC860061BA0A /* OpenPayment.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D180DE924A47134001C6CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D180DE824A47134001C6CF8 /* AppDelegate.swift */; };
 		9D180DEB24A47134001C6CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D180DEA24A47134001C6CF8 /* SceneDelegate.swift */; };
 		9D180DED24A47134001C6CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D180DEC24A47134001C6CF8 /* ViewController.swift */; };
 		9D180DF024A47134001C6CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D180DEE24A47134001C6CF8 /* Main.storyboard */; };
 		9D180DF224A47135001C6CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D180DF124A47135001C6CF8 /* Assets.xcassets */; };
 		9D180DF524A47135001C6CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D180DF324A47135001C6CF8 /* LaunchScreen.storyboard */; };
-		F0EBCD9025B7F7ED00105555 /* LayerPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EBCD8B25B70B4000105555 /* LayerPayment.framework */; };
-		F0EBCD9125B7F7ED00105555 /* LayerPayment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0EBCD8B25B70B4000105555 /* LayerPayment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F0EBCD9125B7F7ED00105555 /* LayerPayment.framework in Embed Frameworks */,
+				0D559B7628BDFC920061BA0A /* OpenPayment.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D559B7328BDFC860061BA0A /* OpenPayment.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OpenPayment.xcframework; sourceTree = "<group>"; };
 		9D180DE524A47134001C6CF8 /* iOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D180DE824A47134001C6CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D180DEA24A47134001C6CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		9D180DF124A47135001C6CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D180DF424A47135001C6CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D180DF624A47135001C6CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0EBCD8B25B70B4000105555 /* LayerPayment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LayerPayment.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0EBCD9025B7F7ED00105555 /* LayerPayment.framework in Frameworks */,
+				0D559B7528BDFC920061BA0A /* OpenPayment.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 		4D22F20E24DAE2390021E129 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				F0EBCD8B25B70B4000105555 /* LayerPayment.framework */,
+				0D559B7328BDFC860061BA0A /* OpenPayment.xcframework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";

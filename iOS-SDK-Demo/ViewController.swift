@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import LayerPayment
+import OpenPayment
 
-class ViewController: UIViewController,LayerPaymentDelegate {
-
+class ViewController: UIViewController,OpenPaymentDelegate {
+    
     let paymentToken = "payment_token"
     let accessToken = "access_token"
-
+    
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var paymentIdLabel: UILabel!
     @IBOutlet weak var tokenIdLabel: UILabel!
@@ -21,25 +21,30 @@ class ViewController: UIViewController,LayerPaymentDelegate {
     
     
     @IBAction func paymentButtonClick(_ sender: Any) {
-        startPayment()
+        setupEnvirnment()
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    func startPayment()
-    {
-        let layerPayment = LayerPayment(paymentToken: paymentToken,accessKey: accessToken, environment: NetworkEnvironment.Sandbox)
-        layerPayment.delegate = self
-        layerPayment.setBaseViewController(self)
-        layerPayment.startPayment()
+    
+    func setupEnvirnment() {
+        let openPaymentBuilderObj = OpenPaymentBuilder()
+        openPaymentBuilderObj.setAccessKey(accessToken)
+        openPaymentBuilderObj.setEnvironment(.UAT)
+        openPaymentBuilderObj.setErrorColor("#4166B0")
+        openPaymentBuilderObj.setPaymentToken(paymentToken)
+        let openPaymentOBj = openPaymentBuilderObj.buildObject()
+        openPaymentOBj.delegate = self
+        openPaymentOBj.setBaseViewController(self)
+        openPaymentOBj.startPayment()
     }
     
     func onPaymentCompleted(_ transactionDetails: TransactionDetails) {
         DispatchQueue.main.async {
-            self.paymentIdLabel.text = "paymentId: \(transactionDetails.paymentId!)" //+ paymentId
-            self.tokenIdLabel.text = "paymentTokenId: \(transactionDetails.paymentTokenId!)"
-            self.statusLabel.text = "status: \(transactionDetails.status!)"
+            self.paymentIdLabel.text = "paymentId: \(transactionDetails.paymentId ?? "")" //+ paymentId
+            self.tokenIdLabel.text = "paymentTokenId: \(transactionDetails.paymentTokenId ?? "")"
+            self.statusLabel.text = "status: \(transactionDetails.status ?? "")"
         }
     }
     
